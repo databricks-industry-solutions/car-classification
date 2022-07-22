@@ -336,7 +336,7 @@ plt.show()
 
 # MAGIC %md
 # MAGIC # Actionable models
-# MAGIC We demonstrated that we could successfully build a regression model that could detect the severity of a given car accident. In this section, we would like to make use of that model in a real life scenario, hence moving from a ML model to some self contained business logic. Using Pyfunc, we will wrap all the necessary context required to classify input images through simple API.
+# MAGIC We demonstrated that we could successfully build a regression model that could detect the severity of a given car accident. In this section, we would like to make use of that model in a real life scenario, hence moving from a ML model to some self contained business logic. Using Pyfunc, we will wrap all the necessary context required to classify input images through simple API. 
 
 # COMMAND ----------
 
