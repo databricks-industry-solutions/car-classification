@@ -1,0 +1,9 @@
+input_dir: '/mnt/industry-gtm/fsi/datasets/car_accidents'
+database:
+  path: '/FileStore/solution_accelerators/car/database'
+  name: 'car_classification'
+  tables:
+    images: 'images'
+ml:
+  executors: 8
+  evals: 25
