@@ -12,6 +12,10 @@ ___
 
 ___
 
+<img src=https://raw.githubusercontent.com/databricks-industry-solutions/car-classification/main/images/reference_architecture.png alt="logical_flow" width="800">
+
+___ 
+
 Using computer vision, automotive insurers could estimate the costs of damage to a car given a simple picture uploaded by their policy holders. 
 Whilst the task at hand would be complex on its own (yet achievable), it is impossible to fulfill without first having access to a database of historical claims data, their estimated costs and uploaded pictures. As we do not have access to such a database, we started to look for alternative datasets available on the internet. Our first approach was to look at Stanford car [dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html) but quickly realised we would need its equivalent for damaged vehicles together with damage estimate, so we decided to bring a more creative and pragmatic approach to problem solving.
 
