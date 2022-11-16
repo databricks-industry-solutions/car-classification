@@ -7,3 +7,4 @@ database:
 ml:
   executors: 8
   evals: 25
+  name: 'car_classification'

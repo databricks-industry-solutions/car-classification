@@ -103,7 +103,7 @@ _ = (
     .select('name', 'content', 'label')
     .write
     .format('delta')
-    .saveAsTable(config['database']['tables']['images'])
+    .saveAsTable(config['database']['tables']['images'], mode="append")
 )
 
 # COMMAND ----------
