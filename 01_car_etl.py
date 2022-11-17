@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this notebook at https://github.com/databricks-industry-solutions/car-classification. 
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC # Accessing pictures
 # MAGIC As we do not have access to an insurance database made of historic claims with both damage (in dollar value) and relevant picture, we started to look at existing datasets on the internet. Out first approach was to look at Stanford car [dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html) but quickly realised we would need its "equivalent" dataset for damaged cars. We decided to manually scrape both damaged and undamaged cars from google images, 300 images for each class, and available in DBFS. For legal reasons, we are not able to redistribute this dataset as part of this solution accelerator.

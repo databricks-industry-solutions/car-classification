@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this notebook at https://github.com/databricks-industry-solutions/car-classification. 
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC 
 # MAGIC <img src=https://d1r5llqwmkrl74.cloudfront.net/notebooks/fs-lakehouse-logo.png width="600px">

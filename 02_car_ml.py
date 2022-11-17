@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this notebook at https://github.com/databricks-industry-solutions/car-classification. 
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC # Context
 # MAGIC Our approach is to exploit `ResNet-50`, a convolutional neural network of 50 layers deep that was trained over more than a million images from the ImageNet database. By removing `ResNet-50` top layer, we can build our own model that can detect accident severity. Someone has already spent the time and computed resources to learn a lot of features and our model will likely benefit from it. This approach is known as **Transfer Learning**. We report below a complex deep learning architecture made of several convolutional layers and rectified linear unit (ReLU) activation functions. We can easily "peel off" its last layer (classification) to turn this model into an efficient image featurizer without the computational burden of training a model on our own. This approach will drastically reduce the time from ideation to business value.
